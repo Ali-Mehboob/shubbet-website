@@ -179,9 +179,40 @@ a{
     background-repeat: no-repeat;
 }
 
-
-
-
+.game-page{
+    height: 300px;
+    background: black;
+}
+.showing-games{
+display: flex;
+}
+.showing-games-buttons{
+    margin: 0px 10px;
+}
+.showing-games-buttons-btn button{
+    margin: 15px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+.showing-games-buttons-btn img{
+    width: 40px;
+    margin-left: 5px;
+}
+.showing-games-buttons-btn{
+    border-top: 1px solid rgb(121, 121, 121);
+    border-right: 1px solid rgb(121, 121, 121);
+    border-left: 1px solid rgb(121, 121, 121);
+}
+.showing-games-buttons-btn:hover{
+    background: rgba(190, 190, 190, 0.192);
+}   
+.game-container-boxes{
+    display: flex;
+}
+.game-container-boxes-box{
+    margin: 10px;
+}
 
 
 
