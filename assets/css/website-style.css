@@ -1572,6 +1572,8 @@ form{
     height: 400px;
     padding: 35px;
     color: black;
+    right: 20%;
+    left: 60%;
   }
   
   /* Declare heights because of positioning of img element */
@@ -1645,9 +1647,8 @@ form{
 
 
 
-
 /********BIGGER SCREEN**********/
-@media screen and (min-width: 1370px){
+@media screen and (min-width: 1650px){
     .header-image{
         height: 80vh;
     }
