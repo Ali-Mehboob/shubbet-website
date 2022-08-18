@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/css/background-animation.css"/>
     <link rel="stylesheet" href="assets/css/website-style.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Roboto+Slab:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <title>Game 1</title>
+    <title>Games</title>
 </head>
 <body>
     <div class="preloader"> <img class="preloader-icon" src="./assets/images/nav-logo.png" alt="My Site Preloader"> </div>
@@ -41,33 +41,32 @@
         </label>
         <!--menu------------>
         <ul class="menu">
-            <li><a href="../index.html">Home</a></li>
+            <li><a href="./index.html">Home</a></li>
             <li><a href="#" class="nav-contact">Contact</a></li>
         </ul>
     </nav>
    <section class="article-links">
     <div class="article-links-route col-7">
-        <p><a href=".../index.html">Home</a> / <a href="">Games</p>
+        <p><a href="./index.html">Home</a> / <a href="games.html">Games</p>
     </div>
     <div class="article-links-nav col-5">
 
       <div class="dropdown">
         <button class="dropbtn">Games <i class="fa-solid fa-caret-down"></i></button>
         <div class="dropdown-content">
-          <a href="./game1.html">Game 1</a>
-          <a href="./game2.html">Game 2</a>
-          <a href="./game3.html">Game 3</a>
-          <a href="./game4.html">Game 4</a>
-          <a href="./game5.html">Game 5</a>
+          <a href="pages/game1.html">Game 1</a>
+          <a href="pages/game2.html">Game 2</a>
+          <a href="pages/game3.html">Game 3</a>
+          <a href="pages/game4.html">Game 4</a>
+          <a href="pages/game5.html">Game 5</a>
         </div>
       </div>
 
       <div class="dropdown">
         <button class="dropbtn">Promotions <i class="fa-solid fa-caret-down"></i></button>
         <div class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
+          <a href="pages/promotion1.html">Promotion 1</a>
+          <a href="pages/promotion2.html">Promotion 2</a>
         </div>
       </div>
 
@@ -84,26 +83,113 @@
 
 
    <section class=" showing-games">
-    <div class="btns">
-        <button type="button" data-menu="all">All</button>
-        <button type="button" data-menu="green">Green</button>
-        <button type="button" data-menu="pirple">Pirple</button>
-        <button type="button" data-menu="cadetblue">Cadetblue</button>
-        <button type="button" data-menu="red">Red</button>
-        <button type="button" data-menu="gray">Gray</button>
+    <h1>All Games</h1>
+    <div class="dropdown hide-dropdown-games-desktop" style="margin: 20px 0px;">
+      <button class="dropbtn">Select Games <i class="fa-solid fa-caret-down"></i></button>
+      <div class="dropdown-content btns">
+        <button type="button" data-menu="all"><img width="30px" style="margin-right: 5px;" src="assets/images/Sub-bet Features/support.png"/>  All Games</button>
+        <button type="button" data-menu="freegames"><img width="30px" style="margin-right: 5px;" src="assets/images/Sub-bet Features/support.png"/> Free Games</button>
+        <button type="button" data-menu="cashgames"><img width="30px" style="margin-right: 5px;" src="assets/images/Sub-bet Features/support.png"/> Cash Games</button>
+        <button type="button" data-menu="clubgames"><img width="30px" style="margin-right: 5px;" src="assets/images/Sub-bet Features/support.png"/> Club Games</button>
+        <button type="button" data-menu="othergames"><img width="30px" style="margin-right: 5px;" src="assets/images/Sub-bet Features/support.png"/> Other Games</button>
+      </div>
+    </div>
+    <div class="btns hide">
+        <button type="button" data-menu="all"><img width="30px" style="margin-right: 5px;" src="assets/images/Sub-bet Features/support.png"/>  All Games</button>
+        <button type="button" data-menu="freegames"><img width="30px" style="margin-right: 5px;" src="assets/images/Sub-bet Features/support.png"/> Free Games</button>
+        <button type="button" data-menu="cashgames"><img width="30px" style="margin-right: 5px;" src="assets/images/Sub-bet Features/support.png"/> Cash Games</button>
+        <button type="button" data-menu="clubgames"><img width="30px" style="margin-right: 5px;" src="assets/images/Sub-bet Features/support.png"/> Club Games</button>
+        <button type="button" data-menu="othergames"><img width="30px" style="margin-right: 5px;" src="assets/images/Sub-bet Features/support.png"/> Other Games</button>
     </div>
     <div class="allwrps">
-        <div data-menu="green" class="single" style="background-color: green;">Green</div>
-        <div data-menu="pirple" class="single" style="background-color: blueviolet;">Pirple</div>
-        <div data-menu="red" class="single">Red</div>
-        <div data-menu="pirple" class="single" style="background-color: blueviolet;">Pirple</div>
-        <div data-menu="green" class="single" style="background-color: green;">Green</div>
-        <div data-menu="red" class="single">Red</div>
-        <div data-menu="pirple" class="single" style="background-color: blueviolet;">Pirple</div>
-        <div data-menu="cadetblue" class="single" style="background-color: cadetblue;">Cadetblue</div>
-        <div data-menu="green" class="single" style="background-color: green;">Green</div>
-        <div data-menu="cadetblue" class="single" style="background-color: cadetblue;">Cadetblue</div>
-        <div data-menu="gray" class="single" style="background-color: darkgray;">Gray</div>
+        <div data-menu="freegames" class="single" >
+            <div class="game-box">
+                <span style="color:rgb(0, 0, 0) ;">Ongoing</span>
+                <img style="border-radius: 5px;" width="190px" src="assets/images/c-2.jpg"/>
+                <h6 style="color:rgb(0, 0, 0) ;" >Price:₹10000|Entry Fee:₹0</h6>
+                <a href="pages/game1.html" style="margin-bottom:15px ;margin-top:0px;" class="btn btn-primary">View Details</a>
+            </div>
+        </div>
+        <div data-menu="cashgames" class="single" >
+            <div class="game-box">
+                <span style="color:rgb(0, 0, 0) ;">Ongoing</span>
+                <img style="border-radius: 5px;" width="190px" src="assets/images/c-2.jpg"/>
+                <h6 style="color:rgb(0, 0, 0) ;" >Price:₹10000|Entry Fee:₹0</h6>
+                <a href="pages/game2.html" style="margin-bottom:15px ;margin-top:0px;" class="btn btn-primary">View Details</a>
+            </div>
+        </div>
+        <div data-menu="othergames" class="single">
+            <div class="game-box">
+                <span style="color:rgb(0, 0, 0) ;">Ongoing</span>
+                <img style="border-radius: 5px;" width="190px" src="assets/images/c-2.jpg"/>
+                <h6 style="color:rgb(0, 0, 0) ;" >Price:₹10000|Entry Fee:₹0</h6>
+                <a href="pages/game3.html" style="margin-bottom:15px ;margin-top:0px;" class="btn btn-primary">View Details</a>
+            </div>
+        </div>
+        <div data-menu="cashgames" class="single" >
+            <div class="game-box">
+                <span style="color:rgb(0, 0, 0) ;">Ongoing</span>
+                <img style="border-radius: 5px;" width="190px" src="assets/images/c-2.jpg"/>
+                <h6 style="color:rgb(0, 0, 0) ;" >Price:₹10000|Entry Fee:₹0</h6>
+                <a href="pages/game4.html" style="margin-bottom:15px ;margin-top:0px;" class="btn btn-primary">View Details</a>
+            </div>
+        </div>
+        <div data-menu="freegames" class="single" >
+            <div class="game-box">
+                <span style="color:rgb(0, 0, 0) ;">Starting on 20/8/22</span>
+                <img style="border-radius: 5px;" width="190px" src="assets/images/c-2.jpg"/>
+                <h6 style="color:rgb(0, 0, 0) ;" >Price:₹10000|Entry Fee:₹0</h6>
+                <a href="pages/game5.html" style="margin-bottom:15px ;margin-top:0px;" class="btn btn-primary">View Details</a>
+            </div>
+        </div>
+        <div data-menu="othergames" class="single">
+            <div class="game-box">
+                <span style="color:rgb(0, 0, 0) ;">Starting on 20/8/22</span>
+                <img style="border-radius: 5px;" width="190px" src="assets/images/c-2.jpg"/>
+                <h6 style="color:rgb(0, 0, 0) ;" >Price:₹10000|Entry Fee:₹0</h6>
+                <a href="pages/game6.html" style="margin-bottom:15px ;margin-top:0px;" class="btn btn-primary">View Details</a>
+            </div>
+        </div>
+        <div data-menu="cashgames" class="single" >
+            <div class="game-box">
+                <span style="color:rgb(0, 0, 0) ;">Ongoing</span>
+                <img style="border-radius: 5px;" width="190px" src="assets/images/c-2.jpg"/>
+                <h6 style="color:rgb(0, 0, 0) ;" >Price:₹10000|Entry Fee:₹0</h6>
+                <a href="pages/game7.html" style="margin-bottom:15px ;margin-top:0px;" class="btn btn-primary">View Details</a>
+            </div>
+        </div>
+        <div data-menu="clubgames" class="single" >
+            <div class="game-box">
+                <span style="color:rgb(0, 0, 0) ;">Starting on 20/8/22</span>
+                <img style="border-radius: 5px;" width="190px" src="assets/images/c-2.jpg"/>
+                <h6 style="color:rgb(0, 0, 0) ;" >Price:₹10000|Entry Fee:₹0</h6>
+                <a href="pages/game8.html" style="margin-bottom:15px ;margin-top:0px;" class="btn btn-primary">View Details</a>
+            </div>
+        </div>
+        <div data-menu="freegames" class="single" >
+            <div class="game-box">
+                <span style="color:rgb(0, 0, 0) ;">Ongoing</span>
+                <img style="border-radius: 5px;" width="190px" src="assets/images/c-2.jpg"/>
+                <h6 style="color:rgb(0, 0, 0) ;" >Price:₹10000|Entry Fee:₹0</h6>
+                <a href="pages/game9.html" style="margin-bottom:15px ;margin-top:0px;" class="btn btn-primary">View Details</a>
+            </div>
+        </div>
+        <div data-menu="clubgames" class="single" >
+            <div class="game-box">
+                <span style="color:rgb(0, 0, 0) ;">Ongoing</span>
+                <img style="border-radius: 5px;" width="190px" src="assets/images/c-2.jpg"/>
+                <h6 style="color:rgb(0, 0, 0) ;" >Price:₹10000|Entry Fee:₹0</h6>
+                <a href="pages/game10.html" style="margin-bottom:15px ;margin-top:0px;" class="btn btn-primary game-box-btn">View Details</a>
+            </div>
+        </div>
+        <div data-menu="othergames" class="single" >
+            <div class="game-box">
+                <span style="color:rgb(0, 0, 0) ;">Starting on 20/8/22</span>
+                <img style="border-radius: 5px;" width="190px" src="assets/images/c-2.jpg"/>
+                <h6 style="color:rgb(0, 0, 0) ;" >Price:₹10000|Entry Fee:₹0</h6>
+                <a href="pages/game11.html" style="margin-bottom:15px ;margin-top:0px;" class="btn btn-primary">View Details</a>
+            </div>
+        </div>
     </div>
    </section>
 
@@ -119,12 +205,41 @@
    <!--Article Details-->
    <section class="article-details">
     <div class="col-12 game-information">
-      <h1 class="game-details">Andhar Bahar</h1>
+      <h1 class="game-details">Play Online Games With Shub-Bet</h1>
       <p class="game-details game-details-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione maxime qui illo odio autem, ipsa est explicabo perferendis doloremque fuga corporis consectetur, praesentium ducimus! Aut facere ratione quisquam? Ducimus nisi doloribus nulla omnis necessitatibus, asperiores ullam perferendis sit cumque neque distinctio laboriosam earum fugiat. A, animi! Aut reiciendis eveniet illo!</p>
       <h3 class="game-details" style="margin-top: 15px;">Lorem ipsum dolor sit amet:</h3>
       <p class=" game-details game-details-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis magni ad ipsum laboriosam sunt labore.</p>
       <h5 class="game-details" style="margin-top: 15px;">Lorem ipsum dolor sit:</h5>
       <p class=" game-details game-details-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus neque amet iusto unde, ducimus nisi nam atque officiis dolor aperiam asperiores libero quis ipsum. Sed officia animi explicabo culpa molestias ut incidunt ex nobis ipsa, ipsum eveniet dolore nesciunt placeat quo, quos eum labore dolorum totam accusamus id! Vero, eaque.</p>
+      <table class="table table-bordered table-striped table-hover game-details" style="margin-bottom: 30px;">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
       <h5 class="game-details" style="margin-top: 15px;">Lorem ipsum dolor sit:fgasfas</h5>
       <p class=" game-details game-details-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus neque amet iusto unde, ducimus nisi nam atque officiis dolor aperiam asperiores libero quis ipsum. Sed officia animi explicabo culpa molestias ut incidunt ex nobis ipsa, ipsum eveniet dolore nesciunt placeat quo, quos eum labore dolorum totam accusamus id! Vero, eaque.</p>
       <h5 class="game-details" style="margin-top: 15px;">Lorem ipsum dolor sit:</h5>
@@ -255,10 +370,9 @@
                             blk.style.transform = `scale(1)`;
                             blk.style.opacity = `1`;
                             blk.style.visibility = `visible`; 
-                            blk.style.width = `190px`;
-                            blk.style.marginLeft = `5px`;
-                            blk.style.marginRight = `5px`;
-                            blk.style.height = `190px`;
+                            blk.style.width = `270px`;
+                            blk.style.margin = `15px`;
+                            blk.style.height = `330px`;
                         }
                     })
                 if (e.target.dataset.menu == 'all'){
@@ -267,15 +381,15 @@
                             block.style.transform = `scale(1)`;
                             block.style.opacity = `1`;
                             block.style.visibility = `visible`; 
-                            block.style.width = `190px`;
-                            block.style.marginLeft = `5px`;
-                            block.style.marginRight = `5px`;
-                            block.style.height = `190px`;
+                            block.style.width = `270px`;
+                            block.style.margin = `15px`;
+                            block.style.height = `330px`;
                     })
                 }
 
 
-                })
+                });
+                
             })
         }
         Filtering()

@@ -180,36 +180,63 @@ a{
 }
 
 .game-page{
-    height: 300px;
-    background: black;
+    height: 400px;
+    background-image: url(../images/header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:#550000 ;
 }
-
+.show{
+    display: flex;
+}
 
 
 /*****************SHOWING GAMES FILTERED************/
-
+.showing-games{
+    text-align: center;
+}
+.showing-games h1{
+    margin: 20px 0px;
+    margin-top: 50px;
+}
 .allwrps {
     display: flex;
     flex-wrap: wrap;
-    max-width: 800px;
+    max-width: 1200px;
     margin: auto;
+    margin-bottom: 50px;
+    
 }
 
 .single {
-    width: 190px;
-    height: 190px;
+    width: 270px;
+    height: 330px;
     text-align: center;
-    line-height: 200px;
-    background: red;
-    margin: 0 5px;
-    margin-top: 10px;
+    margin: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    transition: .3s;     
+    transition: .3s;    
+    border-radius: 10px;
+    box-shadow: 10px 15px 40px rgba(0, 0, 0, 0.185);
+}
+.game-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.game-box h6{
+    margin: 15px 0px;
+}
+.game-box span{
+    margin-bottom: 10px;
 }
 .btns {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 30px;
+    border-top: 1px solid #000;
+    padding: 15px 0px;
 }
 
 .btns button {
@@ -226,7 +253,9 @@ a{
     background: blueviolet;
     color: #fff;
 }
-
+.hide-dropdown-games-desktop{
+    display: none;
+}
 
 
 
@@ -1031,23 +1060,61 @@ form{
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.game-infomation-image{
+    width: 85%;
+    margin: 0 auto;
+}
+.game-infomation-image img{
+    background-color: #550000;
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px rgba(32, 32, 32, 0.486);
+}
+
+
 .game-details{
     width: 85%;
     margin: 0 auto;
+    margin-top: 60px;
 }
 .game-details-p{
     margin-top: 25px;
 }
 .article-side{
-    margin-top: 50px;
+    margin-top: 115px;
     
 }
 .article-side img{
     width: 300px;
-    box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.116);
+    box-shadow: 10px 10px 30px rgba(32, 32, 32, 0.486);
     background-color: #550000;
-    border-radius: 20px;
+    border-radius: 5px;
 }
+.special-offer-promotion-page{
+    border-radius: 10px;
+}
+.special-offer-promotion-page-section-1{
+    background-color: #FAD961;
+    padding: 10px;
+}
+.special-offer-promotion-page-section-2{
+    background-color: transparent;
+    padding: 10px;
+    display: flex;
+    font-size: 14px;
+}
+.special-offer-promotion-page-section-2 img{
+    margin-right:15px;
+    box-shadow: 10px 10px 30px rgba(32, 32, 32, 0.486);
+    background: transparent;
+    border-radius: 50%;
+}
+.special-offer-promotion-page-section-2 p{
+    margin-top: 15px ;
+}
+
+
+
+
 .whyplayonshubbet{
     width: 100%;
     height: 100vh;
@@ -1135,8 +1202,18 @@ form{
         margin-top: 20px;
     }
 
-
-
+    .single {
+        width: 100% !important;
+    }
+    .btns{
+        margin-top: 0;
+    }
+    .hide{
+        display: none;
+    }
+    .hide-dropdown-games-desktop{
+        display: inline-block;
+    }
 
 
 
@@ -1475,28 +1552,28 @@ form{
     margin-bottom: 4rem;
   }
   .header-carousel-container{
-    padding-top: 80px;
+    padding-top: 0px;
   }
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
     z-index: 10;
-    bottom: 3rem;
-    background-image: linear-gradient(to bottom , #ffdf01, #550000);
+    background-color: #fff;
     width: 400px;
-    margin-top: 100px;
     display: flex ;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     border-radius: 15px;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.384);
-    height: 300px;
+    background-color: #ffdf01;
+    height: 400px;
     padding: 35px;
+    color: black;
   }
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: 25rem;
+    height: 30rem;
     background-color: #777;
   }
   
