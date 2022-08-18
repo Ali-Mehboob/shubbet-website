@@ -250,8 +250,8 @@ a{
 }
 
 .btns button:hover,.btns button.active {
-    background: blueviolet;
-    color: #fff;
+    background: #ffdf01;
+    color: #000;
 }
 .hide-dropdown-games-desktop{
     display: none;
