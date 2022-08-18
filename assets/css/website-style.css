@@ -1103,13 +1103,15 @@ form{
     font-size: 14px;
 }
 .special-offer-promotion-page-section-2 img{
-    margin-right:15px;
     box-shadow: 10px 10px 30px rgba(32, 32, 32, 0.486);
     background: transparent;
     border-radius: 50%;
 }
+.special-offer-promotion-page-section-2-img{
+    margin-right: 15px;
+}
 .special-offer-promotion-page-section-2 p{
-    margin-top: 15px ;
+    margin-top: 10px ;
 }
 
 
