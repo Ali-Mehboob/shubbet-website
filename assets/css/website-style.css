@@ -1129,7 +1129,8 @@ form{
     display: flex;
     width: 100%;
     text-align: center;
-    margin: 40px;
+    justify-content: center;
+        align-items: center;
 }
 .whyplayonshubbet-boxes-box{
     display: flex;
@@ -1641,3 +1642,46 @@ form{
       margin-top: 7rem;
     }
   }
+
+
+
+
+/********BIGGER SCREEN**********/
+@media screen and (min-width: 1370px){
+    .header-image{
+        height: 80vh;
+    }
+    .carousel-inner {
+        height: 75vh;
+    }
+    .carousel-item > img{
+        height: 45rem;
+    }
+    .header-overlay{
+        margin-bottom: -160px;
+    }
+    .header-overlay-overlay{
+        height: 60vh;
+    }
+    .whyplayonshubbet{
+        padding-top: 100px;
+    }
+    .changing-style{
+        height: 70vh;
+    }
+    .whyplayonshubbet-boxes{
+        justify-content: center;
+        align-items: center;
+    }
+    .carousel-item {
+        height: 36rem;
+    }
+    .carousel-container{
+        padding-top: 0px;
+        height: 50vh;
+        padding-bottom: 0px;
+    }
+    .faq-section{
+        min-height: 80vh;
+    }
+}
