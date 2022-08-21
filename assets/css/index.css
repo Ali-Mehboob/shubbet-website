@@ -124,7 +124,7 @@ body {
   height: 630px;
   overflow: hidden;
   border-top: 4px solid #eabf69;
-  background: url(../img/car-bg.jpg) no-repeat top center;
+  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1785,7 +1785,7 @@ body {
   width: 100%;
   height: auto;
   padding-bottom: 60px;
-  background: #e7e7e7 url(../img/xbg.jpg) no-repeat top center;
+  background: #fff ;
 }
 .how-to-play .center {
   width: 1200px;
@@ -1882,7 +1882,7 @@ body {
 .how-to-play .center .pt2 dl dd {
   border-radius: 8px;
   width: 49.3%;
-  background: #fff;
+  background: rgb(255, 246, 167);
 }
 .how-to-play .center .pt2 dl dd .pep {
   margin-top: -40px;
