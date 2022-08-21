@@ -1,0 +1,213 @@
+body {
+  background: #eee7d7;
+  padding-top: 108px;
+}
+@media (max-width: 1024px) {
+  body {
+    padding-top: 90px;
+  }
+}
+.content {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 3px;
+  padding-bottom: 35px;
+  overflow: hidden;
+}
+.content .r-nr {
+  width: 940px;
+  float: left;
+  padding-left: 15px;
+  padding-top: 20px;
+}
+.content .r-nr .tit {
+  width: 100%;
+  padding-bottom: 10px;
+  overflow: hidden;
+  border-bottom: 1px solid #6c0600;
+}
+.content .r-nr .tit h2 {
+  float: left;
+  color: #6c0600;
+  font-size: 18px;
+}
+.content .r-nr .tit select {
+  float: right;
+}
+.content .r-nr .section {
+  width: 100%;
+}
+.content .r-nr .section img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.content .r-nr .section .lumg {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.content .r-nr .section .lumg img {
+  float: left;
+  display: block;
+  max-width: 825px;
+  margin: 0;
+}
+.content .r-nr .section h4 {
+  margin-top: 20px;
+  color: #c70b00;
+  font-size: 15px;
+}
+.content .r-nr .section h5 {
+  margin-top: 30px;
+  color: #313232;
+  font-size: 13px;
+}
+.content .r-nr .section p {
+  color: #313232;
+  line-height: 21px;
+  font-size: 13px;
+  margin-top: 8px;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+.content .r-nr .section p span {
+  font-weight: bold;
+  font-size: 13px;
+}
+.content .r-nr .section ul li {
+  margin-top: 10px;
+  font-size: 13px;
+}
+.content .r-nr .section ul li i {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #6f0701;
+  margin-right: 10px;
+  position: relative;
+  top: -2px;
+}
+.content .r-nr .section dl {
+  margin-top: -10px;
+}
+.content .r-nr .section dl dd {
+  margin-top: 5px;
+  font-size: 13px;
+}
+.content .r-nr .section dl dd i {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #6f0701;
+  margin-right: 10px;
+  position: relative;
+  top: -2px;
+}
+@media (max-width: 1024px) {
+  .content {
+    width: 94%;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+  }
+  .content .r-nr {
+    width: 100%;
+    float: none;
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .content .r-nr .tit {
+    width: 100%;
+    padding-bottom: 0.25rem;
+    overflow: hidden;
+    border-bottom: 1px solid #6c0600;
+  }
+  .content .r-nr .tit h2 {
+    float: left;
+    color: #6c0600;
+    font-size: 0.32rem;
+  }
+  .content .r-nr .tit select {
+    float: right;
+  }
+  .content .r-nr .section {
+    width: 100%;
+  }
+  .content .r-nr .section img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .content .r-nr .section .lumg {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+  .content .r-nr .section .lumg img {
+    float: none;
+    display: block;
+    max-width: 100%;
+    margin: 0;
+  }
+  .content .r-nr .section h4 {
+    margin-top: 0.4rem;
+    color: #c70b00;
+    font-size: 0.3rem;
+  }
+  .content .r-nr .section h5 {
+    margin-top: 0.6rem;
+    color: #313232;
+    font-size: 0.26rem;
+  }
+  .content .r-nr .section p {
+    color: #313232;
+    line-height: 0.38rem;
+    font-size: 0.26rem;
+    margin-top: 0.12rem;
+    text-align: justify;
+    margin-bottom: 0.3rem;
+  }
+  .content .r-nr .section p span {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  .content .r-nr .section ul li {
+    margin-top: 0.2rem;
+    font-size: 0.26rem;
+  }
+  .content .r-nr .section ul li i {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #6f0701;
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+  }
+  .content .r-nr .section dl {
+    margin-top: -10px;
+  }
+  .content .r-nr .section dl dd {
+    margin-top: 5px;
+    font-size: 13px;
+  }
+  .content .r-nr .section dl dd i {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #6f0701;
+    margin-right: 10px;
+    position: relative;
+    top: -2px;
+  }
+}
