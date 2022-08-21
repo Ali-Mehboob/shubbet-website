@@ -24,7 +24,7 @@ a img {
 }
 body {
   width: 100%;
-  background: #eee7d7;
+  background: #ffffff;
   min-width: 1200px;
 }
 @media (max-width: 1024px) {
@@ -245,7 +245,7 @@ font {
 .content .l-tog-z {
   width: 255px;
   float: left;
-  background: #fcf6e0;
+  background: #fbecb6;
   height: 860px;
   position: relative;
 }
