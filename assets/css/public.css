@@ -245,7 +245,7 @@ font {
 .content .l-tog-z {
   width: 255px;
   float: left;
-  background: #fbecb6;
+  background: #ffe483;
   height: 860px;
   position: relative;
 }
@@ -362,15 +362,15 @@ font {
   font-weight: bold;
   font-size: 16px;
   line-height: 49px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   border-radius: 12px;
-  background-image: linear-gradient(to bottom, #ca2f26, #6d0600);
+  background-image: linear-gradient(to bottom right, #ffce08, #6d0600);
   transition: all 0.4s linear;
   margin: 0 auto;
   margin-top: 22px;
 }
 .content .l-tog-z .xbtn a:hover {
-  background-image: linear-gradient(to bottom, #6d0600, #ca2f26);
+  background-image: linear-gradient(to bottom, #6d0600, #ffce08);
 }
 @media (max-width: 1024px) {
   .content .l-tog-z {
@@ -497,7 +497,7 @@ font {
     line-height: 0.8rem;
     color: #fff;
     border-radius: 0.15rem;
-    background-image: linear-gradient(to bottom, #ca2f26, #6d0600);
+    background-image: linear-gradient(to bottom, #ede60c, #6d0600);
     transition: all 0.4s linear;
     margin: 0 auto;
     margin-top: 0.2rem;

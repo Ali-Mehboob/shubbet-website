@@ -1,0 +1,407 @@
+body {
+  background: #eee7d7;
+  padding-top: 108px;
+}
+@media (max-width: 1024px) {
+  body {
+    padding-top: 90px;
+  }
+}
+.content {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 3px;
+  padding-bottom: 35px;
+  overflow: hidden;
+}
+.content .r-nr {
+  width: 940px;
+  float: left;
+  padding-left: 15px;
+  padding-top: 20px;
+}
+.content .r-nr .tit {
+  width: 100%;
+  padding-bottom: 10px;
+  overflow: hidden;
+  border-bottom: 1px solid #6c0600;
+}
+.content .r-nr .tit h2 {
+  float: left;
+  color: #6c0600;
+  font-size: 18px;
+}
+.content .r-nr .tit select {
+  float: right;
+}
+.content .r-nr .section {
+  width: 100%;
+}
+.content .r-nr .section h2 {
+  text-align: center;
+  color: #6c0600;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.content .r-nr .section h2 span {
+  color: #ff8400;
+  font-size: 20px;
+}
+.content .r-nr .section h5 {
+  text-align: center;
+  font-weight: normal;
+}
+.content .r-nr .section .p-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+.content .r-nr .section .p-list li {
+  width: 196px;
+  height: 398px;
+  padding-top: 65px;
+  background: url(../img/5-Agency-plan_12.png);
+}
+.content .r-nr .section .p-list li img {
+  display: block;
+  margin: 0 auto;
+}
+.content .r-nr .section .p-list li strong {
+  display: block;
+  width: 122px;
+  margin: 0 auto;
+  height: 36px;
+  border-bottom: 1px solid #000;
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.content .r-nr .section .p-list li p {
+  width: 165px;
+  text-align: center;
+  font-size: 15px;
+  margin: 0 auto;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  line-height: 22px;
+}
+.content .r-nr .section h5 {
+  text-align: center;
+  font-weight: normal;
+}
+.content .r-nr .section dl {
+  display: flex;
+  margin-top: 22px;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.content .r-nr .section dl dd {
+  width: 195px;
+  height: 145px;
+  background: #fffcf3;
+  border-radius: 10px;
+}
+.content .r-nr .section dl dd img {
+  display: block;
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.content .r-nr .section dl dd p {
+  font-size: 13px;
+  line-height: 22px;
+  text-decoration: underline;
+  margin-top: 10px;
+  text-align: center;
+}
+.content .r-nr .section .hzimg {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.content .r-nr .section .btn {
+  margin-top: 22px;
+  text-align: center;
+}
+.content .r-nr .section .btn a {
+  display: inline-block;
+  margin: 0 10px;
+  width: 150px;
+  height: 38px;
+  background: #6c0600;
+  border-radius: 19px;
+  text-align: center;
+  line-height: 38px;
+  color: #fff;
+  font-size: 15px;
+  transition: all 0.2s linear;
+}
+.content .r-nr .section .btn a:hover {
+  background: #870700;
+}
+.content .r-nr .section .qsq {
+  margin-top: 35px;
+}
+.content .r-nr .section .qsq h6 {
+  text-align: left;
+  font-size: 20px;
+  color: #6c0600;
+}
+.content .r-nr .section .qsq ul {
+  margin-top: 12px;
+}
+.content .r-nr .section .qsq ul li {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 15px;
+}
+.content .r-nr .section .qsq ul li.zkon .jt i {
+  transform: rotate(90deg);
+}
+.content .r-nr .section .qsq ul li .jt {
+  width: 10px;
+  height: 2px;
+  background: #000000;
+  position: absolute;
+  right: 15px;
+  top: 22px;
+}
+.content .r-nr .section .qsq ul li .jt i {
+  display: block;
+  width: 2px;
+  height: 10px;
+  position: absolute;
+  top: -4px;
+  left: 4px;
+  background: #000000;
+  transition: all 0.2s linear;
+}
+.content .r-nr .section .qsq ul li p {
+  width: 100%;
+  height: 45px;
+  background: #fffcf3;
+  border-radius: 8px;
+  cursor: pointer;
+  padding-left: 22px;
+  line-height: 45px;
+}
+.content .r-nr .section .qsq ul li .asw {
+  width: 100%;
+  display: none;
+  height: auto;
+  padding: 15px 10px;
+  background: #fff;
+  border-radius: 8px;
+  padding-left: 22px;
+  margin-top: 5px;
+}
+@media (max-width: 1024px) {
+  .content {
+    width: 94%;
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+  }
+  .content .r-nr {
+    width: 100%;
+    float: none;
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .content .r-nr .tit {
+    width: 100%;
+    padding-bottom: 0.25rem;
+    overflow: hidden;
+    border-bottom: 1px solid #6c0600;
+  }
+  .content .r-nr .tit h2 {
+    float: left;
+    color: #6c0600;
+    font-size: 0.32rem;
+  }
+  .content .r-nr .tit select {
+    float: right;
+  }
+  .content .r-nr .section {
+    width: 100%;
+  }
+  .content .r-nr .section h2 {
+    text-align: center;
+    color: #6c0600;
+    font-size: 0.36rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.15rem;
+  }
+  .content .r-nr .section h2 span {
+    color: #ff8400;
+    font-size: 0.36rem;
+  }
+  .content .r-nr .section h5 {
+    text-align: center;
+    font-weight: normal;
+  }
+  .content .r-nr .section .p-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0.4rem;
+    margin-bottom: 0.6rem;
+  }
+  .content .r-nr .section .p-list li {
+    width: 48%;
+    height: 6rem;
+    padding-top: 0.8rem;
+    background: url(../img/5-Agency-plan_12.png);
+    background-size: 100% 100%;
+    margin-bottom: 0.4rem;
+  }
+  .content .r-nr .section .p-list li img {
+    display: block;
+    margin: 0 auto;
+    width: 1.6rem;
+  }
+  .content .r-nr .section .p-list li strong {
+    display: block;
+    width: 1.8rem;
+    margin: 0 auto;
+    height: 0.55rem;
+    border-bottom: 1px solid #000;
+    text-align: center;
+    font-size: 0.32rem;
+    margin-top: 0.3rem;
+  }
+  .content .r-nr .section .p-list li p {
+    width: 90%;
+    text-align: center;
+    font-size: 0.28rem;
+    margin: 0 auto;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    line-height: 0.38rem;
+  }
+  .content .r-nr .section .p-list li p br {
+    display: none;
+  }
+  .content .r-nr .section h5 {
+    text-align: center;
+    font-weight: normal;
+  }
+  .content .r-nr .section dl {
+    display: flex;
+    margin-top: 0.4rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 0.6rem;
+  }
+  .content .r-nr .section dl dd {
+    width: 48%;
+    height: 2.9rem;
+    background: #fffcf3;
+    border-radius: 0.2rem;
+    margin-bottom: 0.4rem;
+  }
+  .content .r-nr .section dl dd img {
+    display: block;
+    width: 1.3rem;
+    height: 1.3rem;
+    margin: 0 auto;
+    margin-top: 0.3rem;
+  }
+  .content .r-nr .section dl dd p {
+    font-size: 0.24rem;
+    line-height: 0.4rem;
+    text-decoration: underline;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .content .r-nr .section .hzimg {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 10px;
+  }
+  .content .r-nr .section .btn {
+    margin-top: 22px;
+    text-align: center;
+  }
+  .content .r-nr .section .btn a {
+    display: inline-block;
+    margin: 0 10px;
+    width: 2.8rem;
+    height: 0.7rem;
+    background: #6c0600;
+    border-radius: 0.35rem;
+    text-align: center;
+    line-height: 0.7rem;
+    color: #fff;
+    font-size: 0.28rem;
+    transition: all 0.2s linear;
+  }
+  .content .r-nr .section .btn a:hover {
+    background: #870700;
+  }
+  .content .r-nr .section .qsq {
+    margin-top: 35px;
+  }
+  .content .r-nr .section .qsq h6 {
+    text-align: left;
+    font-size: 0.38rem;
+    color: #6c0600;
+  }
+  .content .r-nr .section .qsq ul {
+    margin-top: 0.3rem;
+  }
+  .content .r-nr .section .qsq ul li {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 0.2rem;
+  }
+  .content .r-nr .section .qsq ul li.zkon .jt i {
+    transform: rotate(90deg);
+  }
+  .content .r-nr .section .qsq ul li .jt {
+    width: 10px;
+    height: 2px;
+    background: #000000;
+    position: absolute;
+    right: 15px;
+    top: 22px;
+  }
+  .content .r-nr .section .qsq ul li .jt i {
+    display: block;
+    width: 2px;
+    height: 10px;
+    position: absolute;
+    top: -4px;
+    left: 4px;
+    background: #000000;
+    transition: all 0.2s linear;
+  }
+  .content .r-nr .section .qsq ul li p {
+    width: 100%;
+    height: auto;
+    background: #fffcf3;
+    border-radius: 0.15rem;
+    cursor: pointer;
+    line-height: 0.4rem;
+    padding: 0.2rem 0.5rem 0.2rem 0.32rem;
+  }
+  .content .r-nr .section .qsq ul li .asw {
+    width: 100%;
+    display: none;
+    height: auto;
+    padding: 0.3rem 0.2rem;
+    background: #fff;
+    border-radius: 0.15rem;
+    padding-left: 0.32rem;
+    margin-top: 0.1rem;
+  }
+}
